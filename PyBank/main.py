@@ -30,12 +30,11 @@ print(average_change)
 print(largest_increase)
 print(largest_decrease)
 
-with open('PyBank/Resources/analysis.csv','w',newline='') as csvfile:
+with open('PyBank/Resources/analysis.txt','w') as txt_file:
 
-    csvwriter = csv.writer(csvfile, delimiter=':')
-    csvwriter.writerow(['Total Months'] + [row_count])
-    csvwriter.writerow(['Total'] + [total_sum])
-    csvwriter.writerow(['Average Change'] + [average_change])
-    csvwriter.writerow(['Greatest Increase in Profits'] + [largest_increase])
-    csvwriter.writerow(['Greatest Decrease in Profits'] + [largest_decrease])
+    txt_file.write(f'Total Months : {row_count}\n')
+    txt_file.write(f'Total : {total_sum}\n')
+    txt_file.write(f'Average Change: {average_change}\n')
+    txt_file.write(f'Greatest Increase in Profits : {largest_increase}\n')
+    txt_file.write(f'Greatest Decrease in Profits : {largest_decrease}\n')
 
