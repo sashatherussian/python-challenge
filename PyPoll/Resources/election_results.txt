@@ -1,0 +1,10 @@
+Election Results
+--------------------------
+Total Votes =3521000
+--------------------------
+Votes for Khan =2218230Percent Votes=63.0%
+Votes for Correy =704200Percent Votes=20.0%
+Votes for Li =492940Percent Votes=14.000000000000002%
+Votes for O'Tooley =105630Percent Votes=3.0%
+Election Winner =  [('Khan', 2218230), ('Correy', 704200), ('Li', 492940), ("O'Tooley", 105630)]
+--------------------------
